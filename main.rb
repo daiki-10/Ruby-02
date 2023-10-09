@@ -55,6 +55,7 @@ loop do
       puts "相手: #{computer_direction = DIRECTIONS.sample}"
       if player_direction == computer_direction
         puts "あなたの勝ち！"
+        break
       else
         puts "残念、もう一回！"
       end
@@ -65,6 +66,7 @@ loop do
       puts "相手: #{computer_direction}"
       if player_direction == computer_direction
         puts "コンピュータの勝ち！"
+        break
       else
         puts "もう一回！"
       end
